@@ -32,6 +32,14 @@
 
   export default {
     name: "login.vue",
+    head () {
+      return {
+        title: 'Login Page of mg-task Website',
+        meta: [
+          { hid: 'description', name: 'description', content: 'In this page you can login with an existing user in order to be able to view Home Page' }
+        ]
+      }
+    },
     loading: {
       color: '#0a444b',
       height: '15px'

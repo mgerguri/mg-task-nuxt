@@ -11,6 +11,14 @@
 
   export default {
     name: 'Index',
+    head () {
+      return {
+        title: 'Index Page of mg-task Website',
+        meta: [
+          { hid: 'description', name: 'description', content: 'Here you see the content of website the first time you visit' }
+        ]
+      }
+    },
     scrollToTop: true,
     components: {Banner},
     computed: {

@@ -7,6 +7,14 @@
 <script>
   export default {
     name: "home",
+    head () {
+      return {
+        title: 'Home Page of mg-task Website',
+        meta: [
+          { hid: 'description', name: 'description', content: 'Here you see the content of website once you have logged in' }
+        ]
+      }
+    },
     validate({ store }) {
       return store.state.user
     }

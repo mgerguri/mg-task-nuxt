@@ -13,19 +13,19 @@
     <div class="nav-menu lg:justify-between xl:justify-between lg:w-auto" :class="{ 'mobile-menu': mobile_active }">
       <div class="menu-items flex text-sm lg:flex-grow ml-5">
         <span class="close text-2xl" @click="mobile_active = false">X</span>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4 xl:mr-6">
           Für Führerschein
         </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4 xl:mr-6">
           BLS/AED Refresh
         </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4 xl:mr-6">
           Nothilfe am Kind
         </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4 xl:mr-6">
           Für Firmen
         </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4 xl:mr-6">
           Ersatzausweis
         </a>
         <a href="#" class="block mt-4 lg:inline-block lg:mt-0">
@@ -124,7 +124,7 @@
         &.mobile-menu {
           display: flex;
           flex-direction: column;
-          z-index: 10;
+          z-index: 20;
         }
 
         .menu-items {
