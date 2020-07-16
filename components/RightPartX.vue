@@ -1,6 +1,7 @@
 <template>
-    <div class="right-x ph:transform ph:rotate-90 sm:transform sm:rotate-90 md:transform md:rotate-90
-      ph:translate-y-5 sm:-translate-y-6 md:-translate-y-6"></div>
+    <div class="right-x ph:transform ph:rotate-90 sm:transform sm:rotate-90 md:transform md:rotate-90"></div>
+
+    <!-- ph:translate-y-5 sm:-translate-y-6 md:-translate-y-6 -->
 </template>
 
 <script>

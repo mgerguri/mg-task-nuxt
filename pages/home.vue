@@ -5,19 +5,10 @@
 </template>
 
 <script>
-  import { mapState } from 'vuex'
-
   export default {
     name: "home",
-    beforeMount() {
-      if (!this.user) {
-        this.$router.push('/')
-      }
-    },
-    computed: {
-      ...mapState({
-        user: state => state.user
-      })
+    validate({ store }) {
+      return store.state.user
     }
   }
 </script>

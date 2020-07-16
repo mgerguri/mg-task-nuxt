@@ -32,8 +32,8 @@
 <style lang="scss" scoped>
   .dropdown-container {
     position: relative;
-    margin: 20px 0 0 50px;
-    max-width: 250px;
+    margin: 20px auto 0 auto;
+    width: 75%;
     background-color: #fff;
     z-index: 2;
 

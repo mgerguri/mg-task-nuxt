@@ -66,6 +66,7 @@
         SET_USER: 'SET_USER'
       }),
       goToLogin() {
+        this.mobile_active = false
         this.$router.push('login')
       },
       goHome() {
