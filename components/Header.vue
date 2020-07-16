@@ -73,6 +73,7 @@
         this.$router.push('/')
       },
       logout() {
+        this.mobile_active = false
         if (this.$route.name === 'home') {
           this.$router.push('/')
           this.SET_USER(null)
