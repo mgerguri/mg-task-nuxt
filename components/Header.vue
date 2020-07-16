@@ -1,6 +1,6 @@
 <template>
   <nav class="flex items-center justify-between relative w-full">
-    <div class="logo flex items-center flex-shrink-0 mr-6 cursor-pointer" @click="goHome">
+    <div class="logo flex items-center flex-shrink-0 mr-12 cursor-pointer" @click="goHome">
       <h1 class="font-semibold text-6xl text-mg-dark tracking-tight">task*</h1>
     </div>
     <div class="block menu-icon">
@@ -11,8 +11,8 @@
       </button>
     </div>
     <div class="nav-menu lg:justify-between xl:justify-between lg:w-auto" :class="{ 'mobile-menu': mobile_active }">
-      <div class="menu-items text-mg-dark flex text-sm lg:flex-grow ml-5">
-        <span class="close text-mg-dark text-2xl" @click="mobile_active = false">X</span>
+      <div class="menu-items flex text-sm lg:flex-grow ml-5">
+        <span class="close text-2xl" @click="mobile_active = false">X</span>
         <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
           Für Führerschein
         </a>
@@ -34,9 +34,9 @@
       </div>
       <div class="login cursor-pointer" @click="goToLogin" v-if="!user">
         <a href="#"
-           class="inline-block font-medium uppercase text-mg-dark text-sm px-8 py-2 leading-none border rounded hover:border-mg-blue hover:text-mg-blue hover:bg-white mt-4 lg:mt-0">Login</a>
+           class="inline-block font-medium uppercase text-mg-grey text-sm px-8 py-2 leading-none border rounded border-grey-border hover:border-mg-blue hover:text-mg-blue hover:bg-white mt-4 lg:mt-0">Login</a>
       </div>
-      <div @click="logout" class="cursor-pointer font-medium inline-block uppercase text-mg-dark text-sm px-8 py-2 leading-none border rounded hover:border-mg-blue hover:text-mg-blue hover:bg-white mt-4 lg:mt-0" v-else>
+      <div @click="logout" class="cursor-pointer font-medium inline-block uppercase text-mg-grey k text-sm px-8 py-2 leading-none border rounded border-grey-border hover:border-mg-blue hover:text-mg-blue hover:bg-white mt-4 lg:mt-0" v-else>
         {{ full_name }}
       </div>
     </div>
@@ -105,7 +105,7 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1110px) {
     nav {
       .menu-icon {
         display: block;

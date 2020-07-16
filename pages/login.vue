@@ -10,12 +10,12 @@
       <form class="px-12 py-16">
         <div class="mb-6">
           <input v-model="payload.username"
-            class="custom-input appearance-none border-none border-mg-dark text-gray-900 w-full py-2 px-3 leading-tight focus:outline-none"
+            class="custom-input appearance-none border-none border-mg-dark text-gray-900 w-full py-2 px-3 leading-tight outline-none"
             id="username" type="text" placeholder="EMAIL">
         </div>
         <div class="mb-2">
           <input v-model="payload.password"
-            class="custom-input appearance-none w-full border-none border-mg-dark text-gray-900 py-2 px-3 mb-3 leading-tight focus:outline-none"
+            class="custom-input appearance-none w-full border-none border-mg-dark text-gray-900 py-2 px-3 mb-3 leading-tight outline-none"
             id="password" type="password" placeholder="PASSWORD">
         </div>
         <p v-if="login_error" class="text-red-500 text-xs mb-4">{{ login_error }}</p>

@@ -32,13 +32,13 @@
 <style lang="scss" scoped>
   .dropdown-container {
     position: relative;
-    margin: 20px auto 0 auto;
-    width: 75%;
+    margin-top: 30px;
+    max-width: 70%;
     background-color: #fff;
     z-index: 2;
 
     .active-item {
-      padding: 10px;
+      padding: 15px;
       border-radius: 4px;
       border: 1px solid #000;
       cursor: pointer;
@@ -46,7 +46,7 @@
 
     .dropdown-menu {
       position: absolute;
-      top: 40px;
+      top: 50px;
       right: 2px;
       left: 2px;
       display: flex;
@@ -59,8 +59,8 @@
   @media (max-width: 1023px) {
     .dropdown-container {
       position: absolute;
-      bottom: -10px;
       margin: 0 auto;
+      bottom: -10px;
       left: 20px;
       right: 20px;
     }

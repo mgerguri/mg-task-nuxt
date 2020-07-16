@@ -17,7 +17,9 @@ module.exports = {
       colors: {
         'mg-dark': '#0a444b',
         'mg-blue': '#A4E2DC',
-        'mg-gray': '#c0c0c0'
+        'mg-gray': '#c0c0c0',
+        'mg-grey': '#747474',
+        'grey-border': '#d8d8d8'
       }
     }
   },
